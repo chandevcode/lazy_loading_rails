@@ -5,7 +5,7 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
-100.times do
+500.times do
   # Comment.create(body: Faker::Quote.famous_last_words)
   # Post.create(title: Faker::Music.band, image_url: Faker::Avatar.image)
   Artist.create(name: Faker::Artist.name)
